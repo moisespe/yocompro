@@ -1,0 +1,42 @@
+.vertical-center{
+  display: flex;
+  justify-content: center;
+}
+
+.more-font{
+  font-size: 14pt;
+}
+
+.monto{
+  position:relative;
+  bottom:3px;
+  left:8px;
+}
+
+.button{
+  border-radius:0 !important;
+  -webkit-border-radius:0 !important;
+  -moz-border-radius:0 !important;
+  -ms-border-radius:0 !important;
+  -o-border-radius:0 !important;
+}
+.avatar-img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list{
+  list-style:none !important;
+}
+.social-icon{
+  font-size: 20pt !important;
+  margin: 0.3em;
+}
+.social{
+  position:relative;
+  top: 7em;
+}
+.is-current{
+  background: #f14668 !important;
+  border-color: #f14668 !important;
+}
