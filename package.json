@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devouzear/yocompro/issues"
   },
-  "homepage": "https://github.com/devouzear/yocompro#readme"
+  "homepage": "https://github.com/devouzear/yocompro#readme",
+  "dependencies": {
+    "vue": "2.6"
+  }
 }
