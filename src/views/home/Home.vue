@@ -1,82 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>YoCompro!</title>
-    <!-- frontend css framework-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css">
+<template>
 
-    <!-- animate css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
-    <!-- end framework-->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" href="assets/css/main.css">
-  </head>
-  <body class="animated fadeIn">
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="#">
-      <img src="assets/img/logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Productos
-      </a>
-
-      <a class="navbar-item" href="nosotros.html">
-        Nosotros
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Otros
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-danger">
-            <strong>Registro</strong>
-          </a>
-          <a class="button is-light" href="main.html">
-            Ingresar
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
 <!-- tu compra segura -->
-<div id="app">
 
 <section class="hero">
   <div class="hero-body">
@@ -581,9 +505,7 @@
 
 
 <!-- Provider -->
-<section class="section is-danger animated fadeIn" v-if="provider">
-  
-  <br>
+<section class="section is-danger animated fadeIn">
   <div class="container">
     <h1 class="title has-text-danger">Registro de Proveedor</h1>
     <h2 class="subtitle">
@@ -731,8 +653,7 @@
           <!-- -->
     
       </div>
-        <!-- form -->
-         <!-- content-->
+
       </div>
     </div>
 
@@ -741,16 +662,10 @@
   </section>
 
 
-  </div>
-  <br>
 
 
 </section>
-<!-- End provider -->
 
-<!-- canasta -->
-
-<!-- canasta-->
 
 
 <!-- -->
@@ -782,7 +697,7 @@
   </div>
 </nav>
 
-<!-- -->
+
 <footer class="footer has-text-weight-ligh">
   <div class="columns">
     <div class="column">
@@ -839,13 +754,5 @@
     </p>
   </div>
 </footer>
-<!-- -->
+</template>
 ~~~~
-<script src="assets/js/modals.js"></script>
-
-<!-- versión de desarrollo, incluye advertencias de ayuda en la consola -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-
-  </body>
-</html>
