@@ -3,16 +3,16 @@
 Orientado a productos para compra online.
 
 
-## REQUISITOS
-- Servidor Localhost
+#### Tools
 
-## FRAMEWORKS
-- BULMA
-- VUE JS
+- [x] BULMA
+- [x] VUEJS
 
-## Tecnologias
-- HTML
-- CSS
 
-## CONTRIBUCION
-Interfaz UI desarrollada por Devouzer
+#### Install
+```
+$ git clone https://github.com/vedees/timelibrary.git
+$ npm install
+$ npm run dev
+$ npm run build
+```
