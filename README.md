@@ -1,6 +1,6 @@
 # yocompro
 ## UI Design Market Foods
-Orientado a productos para compra online.
+Develop practice ecommerce
 
 
 #### Tools
